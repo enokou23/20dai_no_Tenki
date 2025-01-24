@@ -1,0 +1,124 @@
+body {
+    font-family: 'Noto Sans JP', 'Roboto', 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0; /* ブラウザのデフォルトマージンをリセット */
+    padding: 0;
+  }
+
+  /* プロフィールのすべてを格納するコンテナのスタイリング */
+.ProfileContainer {
+    max-width: 1200px; /* コンテナの最大幅 */
+    margin: 0 auto; /* 中央揃え（左右に均等な空白を設ける） */
+    padding: 50px 50px; /* 左右に20pxのパディングを追加 */
+}
+
+.ProfileSubContainer {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 20px 50px;
+    gap: 150px; /* 要素の間隔 */
+    border-bottom: 2px solid #333; /* 下部にだけ枠線を追加 */
+    padding-bottom: 100px;         /* 枠線とコンテンツの間に余白を追加 */
+  }
+
+  .ProfileRightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .ProfileRightContainer img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.name-text {
+    margin-top: 170px;
+}
+
+  /* 【第二章】人生年表を格納するコンテナのスタイリング */
+.JinseiNenpyouContainer {
+    max-width: 1200px; /* コンテナの最大幅 */
+    margin: 0 auto; /* 中央揃え（左右に均等な空白を設ける） */
+    padding: 50px 50px; /* 左右に20pxのパディングを追加 */
+}
+
+.TimelineContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin: 0 auto; /* 中央揃え（左右に均等な空白を設ける） */
+  max-height: 100%; /* 親要素に合わせて最大幅に設定 */
+}
+
+.TimelineContainer img {
+  max-width: 100%; /* 親要素に合わせて最大幅に設定 */
+  height: auto; /* アスペクト比を維持しつつ高さを自動調整 */
+}
+
+
+
+  h1 {
+    font-size: 100px;
+    color: #2c3e50;
+  }
+
+  h2 {
+    font-size: 80px;
+    color: #2c3e50;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: #2c3e50;
+  }
+
+  h4 {
+    font-size: 20px;
+    color: #2c3e50;
+  }
+
+  .header {
+    display: flex;
+    align-items: baseline; /* 下揃え */
+    justify-content: flex-start; /* 左寄せ */
+    padding: 32px 0;
+  }
+
+  .margin-left-profilepic {
+    margin-left: 1%; /* profile画像の左側に画像サイズに対して10%のマージンを追加 */
+}
+
+  
+  .header h1 {
+    margin-bottom: 16px;
+  }
+
+/* インタビュー内容について */
+.InterviewContainer {
+  max-width: 1200px; /* コンテナの最大幅 */
+  margin: 0 auto; /* 中央揃え（左右に均等な空白を設ける） */
+  padding: 50px 50px; /* 左右に20pxのパディングを追加 */
+}
+
+  .chapter {
+    height: auto;
+    padding: 32px;
+    margin-bottom: 64px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    opacity: 0; /* 初期状態で非表示 */
+    transform: translateY(50px); /* 初期位置を下にずらす */
+  }
+
+  .answer {
+    height: auto;
+    padding: 32px;
+    margin-bottom: 64px;
+    background-color: #ffe9b9;
+    border-radius: 8px;
+    opacity: 0; /* 初期状態で非表示 */
+    transform: translateY(50px); /* 初期位置を下にずらす */
+  }
